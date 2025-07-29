@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gbp-owner-finder
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
